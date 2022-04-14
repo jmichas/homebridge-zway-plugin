@@ -1,6 +1,6 @@
 {
   "name": "homebridge-zway-kevindayton",
-  "version": "0.6.0-alpha1",
+  "version": "0.6.0-alpha2",
   "description": "homebridge-plugin for ZWay Server and RaZBerry",
   "main": "index.js",
   "scripts": {
