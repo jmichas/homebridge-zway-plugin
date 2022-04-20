@@ -524,6 +524,7 @@ ZWayServerAccessory.prototype = {
                 }
                 break;
             case "switchBinary.switch":
+            case "switchBinary.scene_switch_binary":
               services.push(new Service.Switch(vdev.metrics.title, vdev.id));
               break;
             case "switchRGBW":
