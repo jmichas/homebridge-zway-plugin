@@ -1,0 +1,47 @@
+{
+    "data": {
+        "structureChanged": false,
+        "updateTime": 1680380300,
+        "devices": [
+            {
+                "creationTime": 1680370602,
+                "creatorId": 1,
+                "customIcons": {},
+                "deviceType": "switchBinary",
+                "firmware": "1.15",
+                "h": 1078449915,
+                "hasHistory": false,
+                "id": "ZWayVDev_zway_2-0-37",
+                "location": 12,
+                "locationName": "Garage",
+                "manufacturer": "Leviton",
+                "metrics": {
+                    "icon": "switch",
+                    "isFailed": false,
+                    "title": "Garage Lights",
+                    "level": "off"
+                },
+                "nodeId": 2,
+                "order": {
+                    "rooms": 0,
+                    "elements": 0,
+                    "dashboard": 0,
+                    "room": 0
+                },
+                "permanently_hidden": false,
+                "probeType": "power_switch_binary",
+                "product": "Switch",
+                "tags": [
+                    "Homebridge.Service.Type:Switch",
+                    "homekit-skip"
+                ],
+                "technology": "Z-Wave",
+                "visibility": true,
+                "updateTime": 1680383644
+            }
+        ]
+    },
+    "code": 200,
+    "message": "200 OK",
+    "error": null
+}

@@ -1,6 +1,10 @@
-# homebridge-zway
+# homebridge-zway-plugin
 
-[![npm version](https://badge.fury.io/js/homebridge-zway.svg)](https://badge.fury.io/js/homebridge-zway)
+<!-- [![npm version](https://badge.fury.io/js/homebridge-zway.svg)](https://badge.fury.io/js/homebridge-zway) -->
+
+ *Since all development appears to be abandoned on any Z-Way repos I intend to try and keep this as up-to-date and working as possible.*
+
+---
 
 ...is a Homebridge module for [Z-Way Server](http://razberry.z-wave.me/index.php?id=24).
 
@@ -49,7 +53,7 @@ Homebridge requires Z-Way Server version 2.0.1 or greater. It is currently teste
 ## Quick Start
 
 1. `sudo npm install -g homebridge`, See the [Homebridge](https://github.com/nfarina/homebridge) project site for more information, and to configure Homebridge
-2. `sudo npm install -g homebridge-zway`
+2. `sudo npm install -g homebridge-zway-plugin`
 3. Edit `~/.homebridge/config.json` and add the following:
 
 ```

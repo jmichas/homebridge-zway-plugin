@@ -1,6 +1,6 @@
 {
-  "name": "homebridge-zway-kevindayton",
-  "version": "0.6.0-alpha2",
+  "name": "homebridge-zway-plugin",
+  "version": "1.0.0",
   "description": "homebridge-plugin for ZWay Server and RaZBerry",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kevindayton/homebridge-zway-kevindayton.git"
+    "url": "git+https://github.com/jmichas/homebridge-zway-plugin.git"
   },
   "preferGlobal": true,
   "keywords": [
@@ -23,20 +23,21 @@
     "homebridge": ">=0.2.5"
   },
   "dependencies": {
-    "request": "2.74.0",
-    "q": "1.4.x",
     "debug": "^2.2.0",
+    "nyc": "^15.1.0",
+    "q": "1.4.x",
+    "request": "2.74.0",
     "tough-cookie": "^2.2.0"
   },
   "devDependencies": {
-    "qunit": "^0.9.1",
     "homebridge": ">=0.2.5",
-    "istanbul": ">=0.4.5"
+    "nyc": "*",
+    "qunit": "*"
   },
-  "author": "S'pht'Kr <fthasphtkr@gmail.com> (https://github.com/SphtKr)",
+  "author": "jmichas (https://github.com/jmichas)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SphtKr/homebridge-zway/issues"
+    "url": "https://github.com/jmichas/homebridge-zway-plugin/issues"
   },
-  "homepage": "https://github.com/SphtKr/homebridge-zway#readme"
+  "homepage": "https://github.com/jmichas/homebridge-zway-plugin#readme"
 }
