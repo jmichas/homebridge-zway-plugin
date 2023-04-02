@@ -77,8 +77,8 @@ module.exports = function(homebridge) {
         "sensorMultilevel.meterElectric_kilowatt_per_hour": [ZWayServerPlatform.TotalPowerConsumption]
     }
 
-    homebridge.registerAccessory("homebridge-zway", "ZWayServer", ZWayServerAccessory);
-    homebridge.registerPlatform("homebridge-zway", "ZWayServer", ZWayServerPlatform);
+    homebridge.registerAccessory("homebridge-zway-plugin", "ZWayServer", ZWayServerAccessory);
+    homebridge.registerPlatform("homebridge-zway-plugin", "ZWayServer", ZWayServerPlatform);
 }
 
 ZWayServerPlatform.getVDevTypeKeyNormalizationMap = {
