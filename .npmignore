@@ -1,10 +1,22 @@
-node_modules
-.DS_Store
-
-# Ignore compiled code
-dist
+# Ignore source code
+src
 
 # ------------- Defaults ------------- #
+
+# gitHub actions
+.github
+
+# eslint
+.eslintrc
+
+# typescript
+tsconfig.json
+
+# vscode
+.vscode
+
+# nodemon
+nodemon.json
 
 # Logs
 logs
@@ -89,7 +101,6 @@ web_modules/
 
 # Nuxt.js build / generate output
 .nuxt
-dist
 
 # Gatsby files
 .cache/
