@@ -24,7 +24,9 @@
     "lint": "eslint src/**.ts --max-warnings=0",
     "watch": "npm run build && npm link && nodemon",
     "build": "rimraf ./dist && tsc",
-    "prepublishOnly": "npm run lint && npm run build"
+    "prepublishOnly": "npm run lint && npm run build",
+    "pushNewToRaspberry": "scp -r dist pi@homebridge.michas.selfip.com:/usr/lib/node_modules/homebridge-zway-plugin",
+    "pushOldToRaspberry": "bash scripts/pushOldToRaspberry.sh"
   },
   "dependencies": {
     "debug": "^2.2.0",

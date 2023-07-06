@@ -1,0 +1,36 @@
+//vdev
+{
+    "creationTime": 1633132552,
+    "creatorId": 1,
+    "customIcons": {},
+    "deviceType": "switchMultilevel",
+    "firmware": "0.7",
+    "h": 300575466,
+    "hasHistory": false,
+    "id": "ZWayVDev_zway_39-0-38",
+    "location": 11,
+    "locationName": "Great Room",
+    "manufacturer": "Leviton",
+    "metrics": {
+        "icon": "multilevel",
+        "isFailed": false,
+        "title": "Great Room Lights",
+        "level": 0
+    },
+    "nodeId": 39,
+    "order": {
+        "rooms": 0,
+        "elements": 0,
+        "dashboard": 0,
+        "room": 1
+    },
+    "permanently_hidden": false,
+    "probeType": "multilevel",
+    "product": "Magnetic Low Voltage Dimmer",
+    "tags": [
+        "homekit-skip"
+    ],
+    "technology": "Z-Wave",
+    "visibility": true,
+    "updateTime": 1688674988
+}
