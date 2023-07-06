@@ -32,7 +32,8 @@
                 "probeType": "power_switch_binary",
                 "product": "Switch",
                 "tags": [
-                    "Homebridge.Service.Type:Switch",
+                    "Homebridge.Characteristic.Type:Fan",
+                    "Homebridge.Service.Type:Fan",
                     "homekit-skip"
                 ],
                 "technology": "Z-Wave",
