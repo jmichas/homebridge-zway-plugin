@@ -150,6 +150,10 @@ ZWayServerPlatform.prototype = {
             "Cookie": "ZWAYSession=" + this.sessionId
         };
 
+        var optsJson = JSON.stringify(opts);
+        if(optsJson.indexOf('"qs":{"since":')==-1){
+            //debug("zwayRequest " + optsJson);
+        }
         request(opts, function(error, response, body){
             if(response && response.statusCode == 401){
                 debug("Authenticating...");
@@ -382,7 +386,7 @@ ZWayServerPlatform.prototype = {
             this.lastUpdate = result.data.updateTime;
             if(result.data && result.data.devices && result.data.devices.length){
                 var updates = result.data.devices;
-                debug("Got " + updates.length + " updates.");
+                //debug("Got " + updates.length + " updates.");
                 for(var i = 0; i < updates.length; i++){
                     var upd = updates[i];
                     if(this.cxVDevMap[upd.id]){
@@ -399,10 +403,13 @@ ZWayServerPlatform.prototype = {
                             if(typeof cx.zway_getValueFromVDev !== "function") continue;
                             var oldValue = cx.value;
                             var newValue = cx.zway_getValueFromVDev(vdev);
+                            //debug("Update Item " + cx.displayName + " : " + vdev.metrics.title);
+                            //debug("oldValue = " + oldValue + ", newValue = " + newValue);
+                            //debug("Types: oldValue = " + typeof(oldValue) + ", newValue = " + typeof(newValue));
                             if(oldValue !== newValue){
                                 cx.value = newValue;
                                 cx.emit('change', { oldValue:oldValue, newValue:cx.value, context:null });
-                                debug("Updated characteristic " + cx.displayName + " on " + vdev.metrics.title);
+                                debug("Updated characteristic " + cx.displayName + " from '" + oldValue + "' to '" + newValue + "' on " + vdev.metrics.title);
                             } else {
                                 cx.emit('update', { oldTimestamp:vdev.updateTime, newTimestamp: upd.updateTime });
                                 //debug("Characteristic " + cx.displayName + " on " + vdev.metrics.title + " showed timestamp update without value change.");
@@ -732,6 +739,8 @@ ZWayServerAccessory.prototype = {
 
         if(cx instanceof Characteristic.On){
             cx.zway_getValueFromVDev = function(vdev){
+                //debug("vdev.metrics.level == " + vdev.metrics.level);
+                //debug("accessory.platform.dimmerOffThreshold == " + accessory.platform.dimmerOffThreshold);
                 var val = false;
                 if(vdev.metrics.level === "on"){
                     val = true;
@@ -746,14 +755,24 @@ ZWayServerAccessory.prototype = {
             cx.on('get', function(callback, context){
                 debug("Getting value for " + vdev.metrics.title + ", characteristic \"" + cx.displayName + "\"...");
                 this.getVDev(vdev).then(function(result){
-                    debug("Got value: " + cx.zway_getValueFromVDev(result.data) + ", for " + vdev.metrics.title + ".");
+                    debug("Got value: " + cx.zway_getValueFromVDev(result.data) + ", for " + cx.displayName+ " of " + vdev.metrics.title + ".");
                     callback(false, cx.zway_getValueFromVDev(result.data));
                 });
             }.bind(this));
-            cx.on('set', interlock(function(powerOn, callback){
-                this.command(vdev, powerOn ? "on" : "off").then(function(result){
+            cx.on('set', interlock(function(powerOn, callback){ //powerOn is the action to perform true==on, false == off
+                debug("Setting value for " + vdev.metrics.title + ", characteristic \"" + cx.displayName + "\"...");
+                debug("powerOn = " + powerOn + " | vdev.metrics.level == " + vdev.metrics.level);
+                debug("vdev = " + JSON.stringify(vdev));
+                if(powerOn && vdev.metrics.level == 0 || !powerOn){ //check to see if it is already on? level == 0 seems to be off
+                    this.command(vdev, powerOn ? "on" : "off").then(function(result){
+                        debug("power on result = " + JSON.stringify(result));
+                        callback();
+                    });
+                }else
+                {
+                    debug(vdev.metrics.title + " already On : " + vdev.metrics.level);
                     callback();
-                });
+                }
             }.bind(this)));
             cx.on('change', function(ev){
                 debug("Device " + vdev.metrics.title + ", characteristic " + cx.displayName + " changed from " + ev.oldValue + " to " + ev.newValue);
@@ -802,12 +821,17 @@ ZWayServerAccessory.prototype = {
             cx.on('get', function(callback, context){
                 debug("Getting value for " + vdev.metrics.title + ", characteristic \"" + cx.displayName + "\"...");
                 this.getVDev(vdev).then(function(result){
-                    debug("Got value: " + cx.zway_getValueFromVDev(result.data) + ", for " + vdev.metrics.title + ".");
+                    debug("Got value: " + cx.zway_getValueFromVDev(result.data) + ", for " + cx.displayName+ " of " + vdev.metrics.title + ".");
                     callback(false, cx.zway_getValueFromVDev(result.data));
                 });
             }.bind(this));
             cx.on('set', interlock(function(level, callback){
+                debug("Setting value for " + vdev.metrics.title + ", characteristic \"" + cx.displayName + "\"...");
+                debug("level \""+ level +"\"");
                 this.command(vdev, "exact", {level: parseInt(level, 10)}).then(function(result){
+                    //debug("Brightness Set Result: ");
+                    //debug(JSON.stringify(result));
+                    vdev.metrics.level = parseInt(level, 10);
                     callback();
                 });
             }.bind(this)));
