@@ -1,0 +1,37 @@
+{
+    "creationTime": 1612366106,
+    "creatorId": 1,
+    "customIcons": {},
+    "deviceType": "switchBinary",
+    "firmware": "1.15",
+    "h": -1732094256,
+    "hasHistory": false,
+    "id": "ZWayVDev_zway_10-0-37",
+    "location": 2,
+    "locationName": "Living Room",
+    "manufacturer": "Leviton",
+    "metrics": {
+        "icon": "switch",
+        "title": "Fireplace",
+        "isFailed": false,
+        "level": "off"
+    },
+    "nodeId": 10,
+    "order": {
+        "rooms": 0,
+        "elements": 0,
+        "dashboard": 0,
+        "room": 5
+    },
+    "permanently_hidden": false,
+    "probeType": "switch",
+    "product": "Leviton DZPA1",
+    "tags": [
+        "Homebridge.Characteristic.Type:Fan",
+        "Homebridge.Service.Type:Fan",
+        "homekit-skip"
+    ],
+    "technology": "Z-Wave",
+    "visibility": true,
+    "updateTime": 1688713221
+}

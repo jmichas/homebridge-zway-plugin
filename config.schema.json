@@ -1,5 +1,5 @@
 {
-    "pluginAlias": "ZWayServerPlatform",
+    "pluginAlias": "ZWayServer",
     "pluginType": "platform",
     "singular": true,
     "schema": {

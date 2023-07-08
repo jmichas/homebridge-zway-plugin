@@ -1,11 +1,11 @@
-var _initializer = require('../../index.js')._initializer;
-var platform = require('../../index.js').platform;
-var accessory = require('../../index.js').accessory;
+var _initializer = require('../../dist/index.js').ZWayServerPlatform;
+var platform = require('../../dist/index.js').platform;
+var accessory = require('../../dist/index.js').accessory;
 var qunit = require('qunit');
 var homebridge = require("../../node_modules/homebridge/lib/api.js");
 
 var api = new homebridge.HomebridgeAPI();
-_initializer(api);
+//_initializer(api);
 var testPlatform = new platform(console.log, {});
 var Service = api.hap.Service;
 var Characteristic = api.hap.Characteristic;
