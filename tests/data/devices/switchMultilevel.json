@@ -1,0 +1,35 @@
+{
+    "creationTime": 1612288468,
+    "creatorId": 1,
+    "customIcons": {},
+    "deviceType": "switchMultilevel",
+    "firmware": "0.7",
+    "h": 1192966520,
+    "hasHistory": false,
+    "id": "ZWayVDev_zway_6-0-38",
+    "location": 2,
+    "locationName": "Living Room",
+    "manufacturer": "Leviton",
+    "metrics": {
+        "icon": "multilevel",
+        "title": "Picture Lights",
+        "isFailed": false,
+        "level": 0
+    },
+    "nodeId": 6,
+    "order": {
+        "rooms": 0,
+        "elements": 0,
+        "dashboard": 0,
+        "room": 0
+    },
+    "permanently_hidden": false,
+    "probeType": "multilevel",
+    "product": "Magnetic Low Voltage Dimmer",
+    "tags": [
+        "homekit-skip"
+    ],
+    "technology": "Z-Wave",
+    "visibility": true,
+    "updateTime": 1688829842
+}

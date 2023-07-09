@@ -1,0 +1,33 @@
+{
+    "creationTime": 1652668869,
+    "creatorId": 7,
+    "customIcons": {},
+    "deviceType": "battery",
+    "firmware": "v4.0.3",
+    "h": -592588978,
+    "hasHistory": false,
+    "id": "BatteryPolling_7",
+    "location": 0,
+    "locationName": "globalRoom",
+    "manufacturer": "Z-Wave.Me",
+    "metrics": {
+        "probeTitle": "Battery",
+        "scaleTitle": "%",
+        "title": "Battery Polling",
+        "icon": "battery"
+    },
+    "order": {
+        "rooms": 0,
+        "elements": 0,
+        "dashboard": 0
+    },
+    "permanently_hidden": false,
+    "probeType": "",
+    "product": "Virtual device",
+    "tags": [
+        "homekit-skip"
+    ],
+    "technology": "Virtual",
+    "visibility": true,
+    "updateTime": 1688799620
+}

@@ -1,0 +1,1239 @@
+{
+  "data": {
+      "structureChanged": false,
+      "updateTime": 1688829942,
+      "devices": [
+          {
+              "creationTime": 1652668869,
+              "creatorId": 7,
+              "customIcons": {},
+              "deviceType": "battery",
+              "firmware": "v4.0.3",
+              "h": -592588978,
+              "hasHistory": false,
+              "id": "BatteryPolling_7",
+              "location": 0,
+              "locationName": "globalRoom",
+              "manufacturer": "Z-Wave.Me",
+              "metrics": {
+                  "probeTitle": "Battery",
+                  "scaleTitle": "%",
+                  "title": "Battery Polling",
+                  "icon": "battery"
+              },
+              "order": {
+                  "rooms": 0,
+                  "elements": 0,
+                  "dashboard": 0
+              },
+              "permanently_hidden": false,
+              "probeType": "",
+              "product": "Virtual device",
+              "tags": [
+                  "homekit-skip"
+              ],
+              "technology": "Virtual",
+              "visibility": true,
+              "updateTime": 1688799620
+          },
+          {
+              "creationTime": 1680370602,
+              "creatorId": 1,
+              "customIcons": {},
+              "deviceType": "switchBinary",
+              "firmware": "1.23",
+              "h": 1078449915,
+              "hasHistory": false,
+              "id": "ZWayVDev_zway_2-0-37",
+              "location": 12,
+              "locationName": "Garage",
+              "manufacturer": "Leviton",
+              "metrics": {
+                  "icon": "switch",
+                  "isFailed": false,
+                  "title": "Garage Lights",
+                  "level": "off"
+              },
+              "nodeId": 2,
+              "order": {
+                  "rooms": 0,
+                  "elements": 0,
+                  "dashboard": 0,
+                  "room": 0
+              },
+              "permanently_hidden": false,
+              "probeType": "power_switch_binary",
+              "product": "Switch",
+              "tags": [
+                  "Homebridge.Service.Type:Lightbulb",
+                  "homekit-skip"
+              ],
+              "technology": "Z-Wave",
+              "visibility": true,
+              "updateTime": 1688829914
+          },
+          {
+              "creationTime": 1607667131,
+              "creatorId": 1,
+              "customIcons": {},
+              "deviceType": "switchMultilevel",
+              "firmware": "0.5",
+              "h": 1107079067,
+              "hasHistory": false,
+              "id": "ZWayVDev_zway_3-0-38",
+              "location": 2,
+              "locationName": "Living Room",
+              "manufacturer": "Leviton",
+              "metrics": {
+                  "icon": "multilevel",
+                  "title": "Living Room East Lamp",
+                  "isFailed": false,
+                  "level": 0
+              },
+              "nodeId": 3,
+              "order": {
+                  "rooms": 0,
+                  "elements": 0,
+                  "dashboard": 0,
+                  "room": 7
+              },
+              "permanently_hidden": false,
+              "probeType": "multilevel",
+              "product": "Plug-In Dimmer",
+              "tags": [
+                  "homekit-skip"
+              ],
+              "technology": "Z-Wave",
+              "visibility": true,
+              "updateTime": 1688829842
+          },
+          {
+              "creationTime": 1612288468,
+              "creatorId": 1,
+              "customIcons": {},
+              "deviceType": "switchMultilevel",
+              "firmware": "0.7",
+              "h": 1192966520,
+              "hasHistory": false,
+              "id": "ZWayVDev_zway_6-0-38",
+              "location": 2,
+              "locationName": "Living Room",
+              "manufacturer": "Leviton",
+              "metrics": {
+                  "icon": "multilevel",
+                  "title": "Picture Lights",
+                  "isFailed": false,
+                  "level": 0
+              },
+              "nodeId": 6,
+              "order": {
+                  "rooms": 0,
+                  "elements": 0,
+                  "dashboard": 0,
+                  "room": 0
+              },
+              "permanently_hidden": false,
+              "probeType": "multilevel",
+              "product": "Magnetic Low Voltage Dimmer",
+              "tags": [
+                  "homekit-skip"
+              ],
+              "technology": "Z-Wave",
+              "visibility": true,
+              "updateTime": 1688829842
+          },
+          {
+              "creationTime": 1612288650,
+              "creatorId": 1,
+              "customIcons": {},
+              "deviceType": "switchMultilevel",
+              "firmware": "0.7",
+              "h": 1221595671,
+              "hasHistory": false,
+              "id": "ZWayVDev_zway_7-0-38",
+              "location": 2,
+              "locationName": "Living Room",
+              "manufacturer": "Leviton",
+              "metrics": {
+                  "icon": "multilevel",
+                  "title": "Pendant Lights",
+                  "isFailed": false,
+                  "level": 0
+              },
+              "nodeId": 7,
+              "order": {
+                  "rooms": 0,
+                  "elements": 0,
+                  "dashboard": 0,
+                  "room": 1
+              },
+              "permanently_hidden": false,
+              "probeType": "multilevel",
+              "product": "",
+              "tags": [
+                  "homekit-skip"
+              ],
+              "technology": "Z-Wave",
+              "visibility": true,
+              "updateTime": 1688829843
+          },
+          {
+              "creationTime": 1612288765,
+              "creatorId": 1,
+              "customIcons": {},
+              "deviceType": "switchMultilevel",
+              "firmware": "0.7",
+              "h": 1250224822,
+              "hasHistory": false,
+              "id": "ZWayVDev_zway_8-0-38",
+              "location": 2,
+              "locationName": "Living Room",
+              "manufacturer": "Leviton",
+              "metrics": {
+                  "icon": "multilevel",
+                  "title": "Ceiling Fan",
+                  "isFailed": false,
+                  "level": 0
+              },
+              "nodeId": 8,
+              "order": {
+                  "rooms": 0,
+                  "elements": 0,
+                  "dashboard": 0,
+                  "room": 2
+              },
+              "permanently_hidden": false,
+              "probeType": "multilevel",
+              "product": "",
+              "tags": [
+                  "Homebridge.Service.Type:Fan",
+                  "homekit-skip"
+              ],
+              "technology": "Z-Wave",
+              "visibility": true,
+              "updateTime": 1688829842
+          },
+          {
+              "creationTime": 1612288930,
+              "creatorId": 1,
+              "customIcons": {},
+              "deviceType": "switchMultilevel",
+              "firmware": "0.7",
+              "h": 1278853973,
+              "hasHistory": false,
+              "id": "ZWayVDev_zway_9-0-38",
+              "location": 2,
+              "locationName": "Living Room",
+              "manufacturer": "Leviton",
+              "metrics": {
+                  "icon": "multilevel",
+                  "title": "Ceiling Fan Light",
+                  "isFailed": false,
+                  "level": 0
+              },
+              "nodeId": 9,
+              "order": {
+                  "rooms": 0,
+                  "elements": 0,
+                  "dashboard": 0,
+                  "room": 3
+              },
+              "permanently_hidden": false,
+              "probeType": "multilevel",
+              "product": "",
+              "tags": [],
+              "technology": "Z-Wave",
+              "visibility": true,
+              "updateTime": 1688829901
+          },
+          {
+              "creationTime": 1612366106,
+              "creatorId": 1,
+              "customIcons": {},
+              "deviceType": "switchBinary",
+              "firmware": "1.15",
+              "h": -1732094256,
+              "hasHistory": false,
+              "id": "ZWayVDev_zway_10-0-37",
+              "location": 2,
+              "locationName": "Living Room",
+              "manufacturer": "Leviton",
+              "metrics": {
+                  "icon": "switch",
+                  "title": "Fireplace",
+                  "isFailed": false,
+                  "level": "off"
+              },
+              "nodeId": 10,
+              "order": {
+                  "rooms": 0,
+                  "elements": 0,
+                  "dashboard": 0,
+                  "room": 5
+              },
+              "permanently_hidden": false,
+              "probeType": "switch",
+              "product": "Leviton DZPA1",
+              "tags": [
+                  "Homebridge.Characteristic.Type:Fan",
+                  "Homebridge.Service.Type:Fan",
+                  "homekit-skip"
+              ],
+              "technology": "Z-Wave",
+              "visibility": true,
+              "updateTime": 1688799621
+          },
+          {
+              "creationTime": 1612366763,
+              "creatorId": 1,
+              "customIcons": {},
+              "deviceType": "switchBinary",
+              "firmware": "0.7",
+              "h": -1674835954,
+              "hasHistory": false,
+              "id": "ZWayVDev_zway_12-0-37",
+              "location": 3,
+              "locationName": "Deck",
+              "manufacturer": "Leviton",
+              "metrics": {
+                  "icon": "switch",
+                  "title": "Deck Lights",
+                  "isFailed": false,
+                  "level": "off"
+              },
+              "nodeId": 12,
+              "order": {
+                  "rooms": 0,
+                  "elements": 0,
+                  "dashboard": 0,
+                  "room": 0
+              },
+              "permanently_hidden": false,
+              "probeType": "switch",
+              "product": "Wall Switch, 15A",
+              "tags": [
+                  "Homebridge.Service.Type:Lightbulb",
+                  "homekit-skip"
+              ],
+              "technology": "Z-Wave",
+              "visibility": true,
+              "updateTime": 1688829843
+          },
+          {
+              "creationTime": 1612366926,
+              "creatorId": 1,
+              "customIcons": {},
+              "deviceType": "switchBinary",
+              "firmware": "0.7",
+              "h": -1646206803,
+              "hasHistory": false,
+              "id": "ZWayVDev_zway_13-0-37",
+              "location": 4,
+              "locationName": "Pool",
+              "manufacturer": "Leviton",
+              "metrics": {
+                  "icon": "switch",
+                  "title": "Pool Area Lights",
+                  "isFailed": false,
+                  "level": "off"
+              },
+              "nodeId": 13,
+              "order": {
+                  "rooms": 0,
+                  "elements": 0,
+                  "dashboard": 0,
+                  "room": 0
+              },
+              "permanently_hidden": false,
+              "probeType": "switch",
+              "product": "Wall Switch, 15A",
+              "tags": [
+                  "Homebridge.Service.Type:Lightbulb",
+                  "homekit-skip"
+              ],
+              "technology": "Z-Wave",
+              "visibility": true,
+              "updateTime": 1688829845
+          },
+          {
+              "creationTime": 1612367175,
+              "creatorId": 1,
+              "customIcons": {},
+              "deviceType": "switchMultilevel",
+              "firmware": "0.7",
+              "h": -1617577651,
+              "hasHistory": false,
+              "id": "ZWayVDev_zway_14-0-38",
+              "location": 6,
+              "locationName": "Back Office",
+              "manufacturer": "Leviton",
+              "metrics": {
+                  "icon": "multilevel",
+                  "title": "Back Office Lights",
+                  "isFailed": false,
+                  "level": 0
+              },
+              "nodeId": 14,
+              "order": {
+                  "rooms": 0,
+                  "elements": 0,
+                  "dashboard": 0,
+                  "room": 0
+              },
+              "permanently_hidden": false,
+              "probeType": "multilevel",
+              "product": "Wall Switch, 15A",
+              "tags": [
+                  "homekit-skip"
+              ],
+              "technology": "Z-Wave",
+              "visibility": true,
+              "updateTime": 1688829844
+          },
+          {
+              "creationTime": 1612367472,
+              "creatorId": 1,
+              "customIcons": {},
+              "deviceType": "switchBinary",
+              "firmware": "0.7",
+              "h": -1588948501,
+              "hasHistory": false,
+              "id": "ZWayVDev_zway_15-0-37",
+              "location": 7,
+              "locationName": "Main Floor Bathroom",
+              "manufacturer": "Leviton",
+              "metrics": {
+                  "icon": "switch",
+                  "title": "Bathroom Light",
+                  "isFailed": false,
+                  "level": "off"
+              },
+              "nodeId": 15,
+              "order": {
+                  "rooms": 0,
+                  "elements": 0,
+                  "dashboard": 0,
+                  "room": 0
+              },
+              "permanently_hidden": false,
+              "probeType": "switch",
+              "product": "Wall Switch, 15A",
+              "tags": [
+                  "Homebridge.Service.Type:Lightbulb",
+                  "homekit-skip"
+              ],
+              "technology": "Z-Wave",
+              "visibility": true,
+              "updateTime": 1688829901
+          },
+          {
+              "creationTime": 1612367538,
+              "creatorId": 1,
+              "customIcons": {},
+              "deviceType": "switchBinary",
+              "firmware": "0.7",
+              "h": -1560319350,
+              "hasHistory": false,
+              "id": "ZWayVDev_zway_16-0-37",
+              "location": 7,
+              "locationName": "Main Floor Bathroom",
+              "manufacturer": "Leviton",
+              "metrics": {
+                  "icon": "switch",
+                  "title": "Bathroom Vanity",
+                  "isFailed": false,
+                  "level": "off"
+              },
+              "nodeId": 16,
+              "order": {
+                  "rooms": 0,
+                  "elements": 0,
+                  "dashboard": 0,
+                  "room": 1
+              },
+              "permanently_hidden": false,
+              "probeType": "switch",
+              "product": "",
+              "tags": [
+                  "Homebridge.Service.Type:Lightbulb",
+                  "homekit-skip"
+              ],
+              "technology": "Z-Wave",
+              "visibility": true,
+              "updateTime": 1688829901
+          },
+          {
+              "creationTime": 1612367711,
+              "creatorId": 1,
+              "customIcons": {},
+              "deviceType": "switchMultilevel",
+              "firmware": "0.7",
+              "h": -1531690198,
+              "hasHistory": false,
+              "id": "ZWayVDev_zway_17-0-38",
+              "location": 8,
+              "locationName": "Office",
+              "manufacturer": "Leviton",
+              "metrics": {
+                  "icon": "multilevel",
+                  "title": "Office Lights",
+                  "isFailed": true,
+                  "level": 0
+              },
+              "nodeId": 17,
+              "order": {
+                  "rooms": 0,
+                  "elements": 0,
+                  "dashboard": 0,
+                  "room": 0
+              },
+              "permanently_hidden": false,
+              "probeType": "multilevel",
+              "product": "Magnetic Low Voltage Dimmer",
+              "tags": [],
+              "technology": "Z-Wave",
+              "visibility": true,
+              "updateTime": 1688799621
+          },
+          {
+              "creationTime": 1612367863,
+              "creatorId": 1,
+              "customIcons": {},
+              "deviceType": "switchMultilevel",
+              "firmware": "0.7",
+              "h": -1503061047,
+              "hasHistory": false,
+              "id": "ZWayVDev_zway_18-0-38",
+              "location": 5,
+              "locationName": "Foyer",
+              "manufacturer": "Leviton",
+              "metrics": {
+                  "icon": "multilevel",
+                  "title": "Foyer Light",
+                  "isFailed": false,
+                  "level": 0
+              },
+              "nodeId": 18,
+              "order": {
+                  "rooms": 0,
+                  "elements": 0,
+                  "dashboard": 0,
+                  "room": 1
+              },
+              "permanently_hidden": false,
+              "probeType": "multilevel",
+              "product": "Magnetic Low Voltage Dimmer",
+              "tags": [
+                  "homekit-skip"
+              ],
+              "technology": "Z-Wave",
+              "visibility": true,
+              "updateTime": 1688829844
+          },
+          {
+              "creationTime": 1612368129,
+              "creatorId": 1,
+              "customIcons": {},
+              "deviceType": "switchBinary",
+              "firmware": "0.7",
+              "h": -844590575,
+              "hasHistory": false,
+              "id": "ZWayVDev_zway_20-0-37",
+              "location": 5,
+              "locationName": "Foyer",
+              "manufacturer": "Leviton",
+              "metrics": {
+                  "icon": "switch",
+                  "title": "Driveway Lights",
+                  "isFailed": false,
+                  "level": "off"
+              },
+              "nodeId": 20,
+              "order": {
+                  "rooms": 0,
+                  "elements": 0,
+                  "dashboard": 0,
+                  "room": 3
+              },
+              "permanently_hidden": false,
+              "probeType": "switch",
+              "product": "Wall Switch, 15A",
+              "tags": [
+                  "Homebridge.Service.Type:Lightbulb",
+                  "homekit-skip"
+              ],
+              "technology": "Z-Wave",
+              "visibility": true,
+              "updateTime": 1688829900
+          },
+          {
+              "creationTime": 1612368280,
+              "creatorId": 1,
+              "customIcons": {},
+              "deviceType": "switchMultilevel",
+              "firmware": "0.7",
+              "h": -815961423,
+              "hasHistory": false,
+              "id": "ZWayVDev_zway_21-0-38",
+              "location": 9,
+              "locationName": "Dining Room",
+              "manufacturer": "Leviton",
+              "metrics": {
+                  "icon": "multilevel",
+                  "title": "Dining Room Light",
+                  "isFailed": false,
+                  "level": 0
+              },
+              "nodeId": 21,
+              "order": {
+                  "rooms": 0,
+                  "elements": 0,
+                  "dashboard": 0,
+                  "room": 0
+              },
+              "permanently_hidden": false,
+              "probeType": "multilevel",
+              "product": "",
+              "tags": [
+                  "homekit-skip"
+              ],
+              "technology": "Z-Wave",
+              "visibility": true,
+              "updateTime": 1688829900
+          },
+          {
+              "creationTime": 1612368417,
+              "creatorId": 1,
+              "customIcons": {},
+              "deviceType": "switchMultilevel",
+              "firmware": "0.7",
+              "h": -787332272,
+              "hasHistory": false,
+              "id": "ZWayVDev_zway_22-0-38",
+              "location": 10,
+              "locationName": "Kitchen",
+              "manufacturer": "Leviton",
+              "metrics": {
+                  "icon": "multilevel",
+                  "title": "Kitchen Table",
+                  "isFailed": false,
+                  "level": 0
+              },
+              "nodeId": 22,
+              "order": {
+                  "rooms": 0,
+                  "elements": 0,
+                  "dashboard": 0,
+                  "room": 0
+              },
+              "permanently_hidden": false,
+              "probeType": "multilevel",
+              "product": "",
+              "tags": [
+                  "homekit-skip"
+              ],
+              "technology": "Z-Wave",
+              "visibility": true,
+              "updateTime": 1688829900
+          },
+          {
+              "creationTime": 1612368725,
+              "creatorId": 1,
+              "customIcons": {},
+              "deviceType": "switchBinary",
+              "firmware": "0.7",
+              "h": -758703122,
+              "hasHistory": false,
+              "id": "ZWayVDev_zway_23-0-37",
+              "location": 1,
+              "locationName": "Outside",
+              "manufacturer": "Leviton",
+              "metrics": {
+                  "icon": "switch",
+                  "title": "Porch Light",
+                  "isFailed": false,
+                  "level": "off"
+              },
+              "nodeId": 23,
+              "order": {
+                  "rooms": 0,
+                  "elements": 0,
+                  "dashboard": 0,
+                  "room": 0
+              },
+              "permanently_hidden": false,
+              "probeType": "switch",
+              "product": "Wall Switch, 15A",
+              "tags": [
+                  "Homebridge.Service.Type:Lightbulb",
+                  "homekit-skip"
+              ],
+              "technology": "Z-Wave",
+              "visibility": true,
+              "updateTime": 1688829902
+          },
+          {
+              "creationTime": 1612368784,
+              "creatorId": 1,
+              "customIcons": {},
+              "deviceType": "switchBinary",
+              "firmware": "0.7",
+              "h": -730073971,
+              "hasHistory": false,
+              "id": "ZWayVDev_zway_24-0-37",
+              "location": 1,
+              "locationName": "Outside",
+              "manufacturer": "Leviton",
+              "metrics": {
+                  "icon": "switch",
+                  "title": "Back Path Light",
+                  "isFailed": false,
+                  "level": "off"
+              },
+              "nodeId": 24,
+              "order": {
+                  "rooms": 0,
+                  "elements": 0,
+                  "dashboard": 0,
+                  "room": 1
+              },
+              "permanently_hidden": false,
+              "probeType": "switch",
+              "product": "Wall Switch, 15A",
+              "tags": [
+                  "Homebridge.Service.Type:Lightbulb",
+                  "homekit-skip"
+              ],
+              "technology": "Z-Wave",
+              "visibility": true,
+              "updateTime": 1688829846
+          },
+          {
+              "creationTime": 1612368885,
+              "creatorId": 1,
+              "customIcons": {},
+              "deviceType": "switchMultilevel",
+              "firmware": "0.7",
+              "h": -701444819,
+              "hasHistory": false,
+              "id": "ZWayVDev_zway_25-0-38",
+              "location": 10,
+              "locationName": "Kitchen",
+              "manufacturer": "Leviton",
+              "metrics": {
+                  "icon": "multilevel",
+                  "title": "Counter Lights",
+                  "isFailed": false,
+                  "level": 0
+              },
+              "nodeId": 25,
+              "order": {
+                  "rooms": 0,
+                  "elements": 0,
+                  "dashboard": 0,
+                  "room": 1
+              },
+              "permanently_hidden": false,
+              "probeType": "multilevel",
+              "product": "Magnetic Low Voltage Dimmer",
+              "tags": [
+                  "homekit-skip"
+              ],
+              "technology": "Z-Wave",
+              "visibility": true,
+              "updateTime": 1688829845
+          },
+          {
+              "creationTime": 1612369057,
+              "creatorId": 1,
+              "customIcons": {},
+              "deviceType": "switchBinary",
+              "firmware": "0.7",
+              "h": -672815669,
+              "hasHistory": false,
+              "id": "ZWayVDev_zway_26-0-37",
+              "location": 10,
+              "locationName": "Kitchen",
+              "manufacturer": "Leviton",
+              "metrics": {
+                  "icon": "switch",
+                  "title": "Kitchen Sink",
+                  "isFailed": false,
+                  "level": "off"
+              },
+              "nodeId": 26,
+              "order": {
+                  "rooms": 0,
+                  "elements": 0,
+                  "dashboard": 0,
+                  "room": 2
+              },
+              "permanently_hidden": false,
+              "probeType": "switch",
+              "product": "Wall Switch, 15A",
+              "tags": [
+                  "Homebridge.Service.Type:Lightbulb",
+                  "homekit-skip"
+              ],
+              "technology": "Z-Wave",
+              "visibility": true,
+              "updateTime": 1688829845
+          },
+          {
+              "creationTime": 1612369126,
+              "creatorId": 1,
+              "customIcons": {},
+              "deviceType": "switchMultilevel",
+              "firmware": "0.7",
+              "h": -644186517,
+              "hasHistory": false,
+              "id": "ZWayVDev_zway_27-0-38",
+              "location": 10,
+              "locationName": "Kitchen",
+              "manufacturer": "Leviton",
+              "metrics": {
+                  "icon": "multilevel",
+                  "title": "Kitchen Island",
+                  "isFailed": false,
+                  "level": 0
+              },
+              "nodeId": 27,
+              "order": {
+                  "rooms": 0,
+                  "elements": 0,
+                  "dashboard": 0,
+                  "room": 3
+              },
+              "permanently_hidden": false,
+              "probeType": "multilevel",
+              "product": "Magnetic Low Voltage Dimmer",
+              "tags": [
+                  "homekit-skip"
+              ],
+              "technology": "Z-Wave",
+              "visibility": true,
+              "updateTime": 1688829846
+          },
+          {
+              "creationTime": 1612369484,
+              "creatorId": 1,
+              "customIcons": {},
+              "deviceType": "switchBinary",
+              "firmware": "0.7",
+              "h": -586928216,
+              "hasHistory": false,
+              "id": "ZWayVDev_zway_29-0-37",
+              "location": 10,
+              "locationName": "Kitchen",
+              "manufacturer": "Leviton",
+              "metrics": {
+                  "icon": "switch",
+                  "title": "Pantry Lights",
+                  "isFailed": false,
+                  "level": "on"
+              },
+              "nodeId": 29,
+              "order": {
+                  "rooms": 0,
+                  "elements": 0,
+                  "dashboard": 0,
+                  "room": 5
+              },
+              "permanently_hidden": false,
+              "probeType": "switch",
+              "product": "Wall Switch, 15A",
+              "tags": [
+                  "Homebridge.Service.Type:Lightbulb",
+                  "homekit-skip"
+              ],
+              "technology": "Z-Wave",
+              "visibility": true,
+              "updateTime": 1688829902
+          },
+          {
+              "creationTime": 1612369568,
+              "creatorId": 1,
+              "customIcons": {},
+              "deviceType": "switchBinary",
+              "firmware": "0.7",
+              "h": 42913106,
+              "hasHistory": false,
+              "id": "ZWayVDev_zway_30-0-37",
+              "location": 1,
+              "locationName": "Outside",
+              "manufacturer": "Leviton",
+              "metrics": {
+                  "icon": "switch",
+                  "title": "Exterior Laundry",
+                  "isFailed": false,
+                  "level": "off"
+              },
+              "nodeId": 30,
+              "order": {
+                  "rooms": 0,
+                  "elements": 0,
+                  "dashboard": 0,
+                  "room": 2
+              },
+              "permanently_hidden": false,
+              "probeType": "switch",
+              "product": "Wall Switch, 15A",
+              "tags": [
+                  "Homebridge.Service.Type:Lightbulb",
+                  "homekit-skip"
+              ],
+              "technology": "Z-Wave",
+              "visibility": true,
+              "updateTime": 1688829846
+          },
+          {
+              "creationTime": 1612369879,
+              "creatorId": 1,
+              "customIcons": {},
+              "deviceType": "switchMultilevel",
+              "firmware": "0.7",
+              "h": 128800560,
+              "hasHistory": false,
+              "id": "ZWayVDev_zway_33-0-38",
+              "location": 11,
+              "locationName": "Great Room",
+              "manufacturer": "Leviton",
+              "metrics": {
+                  "icon": "multilevel",
+                  "title": "Pool Table Light",
+                  "isFailed": false,
+                  "level": 0
+              },
+              "nodeId": 33,
+              "order": {
+                  "rooms": 0,
+                  "elements": 0,
+                  "dashboard": 0,
+                  "room": 1
+              },
+              "permanently_hidden": false,
+              "probeType": "multilevel",
+              "product": "",
+              "tags": [
+                  "homekit-skip"
+              ],
+              "technology": "Z-Wave",
+              "visibility": true,
+              "updateTime": 1688829846
+          },
+          {
+              "creationTime": 1612370898,
+              "creatorId": 1,
+              "customIcons": {},
+              "deviceType": "switchBinary",
+              "firmware": "1.23",
+              "h": 214688012,
+              "hasHistory": false,
+              "id": "ZWayVDev_zway_36-0-37",
+              "location": 0,
+              "locationName": "globalRoom",
+              "manufacturer": "Leviton",
+              "metrics": {
+                  "icon": "switch",
+                  "title": "Basement Lights",
+                  "isFailed": false,
+                  "level": "off"
+              },
+              "nodeId": 36,
+              "order": {
+                  "rooms": 0,
+                  "elements": 0,
+                  "dashboard": 0
+              },
+              "permanently_hidden": false,
+              "probeType": "switch",
+              "product": "Switch",
+              "tags": [
+                  "Homebridge.Service.Type:Lightbulb"
+              ],
+              "technology": "Z-Wave",
+              "visibility": true,
+              "updateTime": 1688799621
+          },
+          {
+              "creationTime": 1612464359,
+              "creatorId": 1,
+              "customIcons": {},
+              "deviceType": "switchMultilevel",
+              "firmware": "0.7",
+              "h": 271946315,
+              "hasHistory": false,
+              "id": "ZWayVDev_zway_38-0-38",
+              "location": 10,
+              "locationName": "Kitchen",
+              "manufacturer": "Leviton",
+              "metrics": {
+                  "icon": "multilevel",
+                  "title": "Kitchen Lights",
+                  "isFailed": false,
+                  "level": 99
+              },
+              "nodeId": 38,
+              "order": {
+                  "rooms": 0,
+                  "elements": 0,
+                  "dashboard": 0,
+                  "room": 5
+              },
+              "permanently_hidden": false,
+              "probeType": "multilevel",
+              "product": "",
+              "tags": [
+                  "homekit-skip"
+              ],
+              "technology": "Z-Wave",
+              "visibility": true,
+              "updateTime": 1688829847
+          },
+          {
+              "creationTime": 1633132552,
+              "creatorId": 1,
+              "customIcons": {},
+              "deviceType": "switchMultilevel",
+              "firmware": "0.7",
+              "h": 300575466,
+              "hasHistory": false,
+              "id": "ZWayVDev_zway_39-0-38",
+              "location": 11,
+              "locationName": "Great Room",
+              "manufacturer": "Leviton",
+              "metrics": {
+                  "icon": "multilevel",
+                  "isFailed": false,
+                  "title": "Great Room Lights",
+                  "level": 0
+              },
+              "nodeId": 39,
+              "order": {
+                  "rooms": 0,
+                  "elements": 0,
+                  "dashboard": 0,
+                  "room": 1
+              },
+              "permanently_hidden": false,
+              "probeType": "multilevel",
+              "product": "Magnetic Low Voltage Dimmer",
+              "tags": [
+                  "homekit-skip"
+              ],
+              "technology": "Z-Wave",
+              "visibility": true,
+              "updateTime": 1688829847
+          },
+          {
+              "creationTime": 1633132745,
+              "creatorId": 1,
+              "customIcons": {},
+              "deviceType": "switchMultilevel",
+              "firmware": "0.7",
+              "h": 930416788,
+              "hasHistory": false,
+              "id": "ZWayVDev_zway_40-0-38",
+              "location": 11,
+              "locationName": "Great Room",
+              "manufacturer": "Leviton",
+              "metrics": {
+                  "icon": "multilevel",
+                  "isFailed": false,
+                  "title": "Great Room TV Lights",
+                  "level": 32
+              },
+              "nodeId": 40,
+              "order": {
+                  "rooms": 0,
+                  "elements": 0,
+                  "dashboard": 0,
+                  "room": 2
+              },
+              "permanently_hidden": false,
+              "probeType": "multilevel",
+              "product": "Magnetic Low Voltage Dimmer",
+              "tags": [
+                  "homekit-skip"
+              ],
+              "technology": "Z-Wave",
+              "visibility": true,
+              "updateTime": 1688829847
+          },
+          {
+              "creationTime": 1640006890,
+              "creatorId": 1,
+              "customIcons": {},
+              "deviceType": "switchMultilevel",
+              "firmware": "0.7",
+              "h": 959045939,
+              "hasHistory": false,
+              "id": "ZWayVDev_zway_41-0-38",
+              "location": 2,
+              "locationName": "Living Room",
+              "manufacturer": "Leviton",
+              "metrics": {
+                  "icon": "multilevel",
+                  "isFailed": false,
+                  "title": "Wet Bar",
+                  "level": 0
+              },
+              "nodeId": 41,
+              "order": {
+                  "rooms": 0,
+                  "elements": 0,
+                  "dashboard": 0,
+                  "room": 7
+              },
+              "permanently_hidden": false,
+              "probeType": "multilevel",
+              "product": "Magnetic Low Voltage Dimmer",
+              "tags": [
+                  "homekit-skip"
+              ],
+              "technology": "Z-Wave",
+              "visibility": true,
+              "updateTime": 1688829847
+          },
+          {
+              "creationTime": 1640008057,
+              "creatorId": 1,
+              "customIcons": {},
+              "deviceType": "switchMultilevel",
+              "firmware": "1.20",
+              "h": 1016304241,
+              "hasHistory": false,
+              "id": "ZWayVDev_zway_43-0-38",
+              "location": 0,
+              "locationName": "globalRoom",
+              "manufacturer": "Leviton",
+              "metrics": {
+                  "icon": "multilevel",
+                  "isFailed": false,
+                  "title": "Garland",
+                  "level": 0
+              },
+              "nodeId": 43,
+              "order": {
+                  "rooms": 0,
+                  "elements": 0,
+                  "dashboard": 0
+              },
+              "permanently_hidden": false,
+              "probeType": "multilevel",
+              "product": "Plug-In Dimmer",
+              "tags": [
+                  "homekit-skip"
+              ],
+              "technology": "Z-Wave",
+              "visibility": true,
+              "updateTime": 1688799622
+          },
+          {
+              "creationTime": 1640008162,
+              "creatorId": 1,
+              "customIcons": {},
+              "deviceType": "switchMultilevel",
+              "firmware": "1.20",
+              "h": 1044933392,
+              "hasHistory": false,
+              "id": "ZWayVDev_zway_44-0-38",
+              "location": 0,
+              "locationName": "globalRoom",
+              "manufacturer": "Leviton",
+              "metrics": {
+                  "icon": "multilevel",
+                  "isFailed": false,
+                  "title": "Christmas Tree",
+                  "level": 0
+              },
+              "nodeId": 44,
+              "order": {
+                  "rooms": 0,
+                  "elements": 0,
+                  "dashboard": 0
+              },
+              "permanently_hidden": false,
+              "probeType": "multilevel",
+              "product": "Plug-In Dimmer",
+              "tags": [
+                  "homekit-skip"
+              ],
+              "technology": "Z-Wave",
+              "visibility": true,
+              "updateTime": 1688799622
+          },
+          {
+              "creationTime": 1658584699,
+              "creatorId": 1,
+              "customIcons": {},
+              "deviceType": "switchMultilevel",
+              "firmware": "1.13",
+              "h": 1073562543,
+              "hasHistory": false,
+              "id": "ZWayVDev_zway_45-0-38",
+              "location": 0,
+              "locationName": "globalRoom",
+              "manufacturer": "Leviton",
+              "metrics": {
+                  "icon": "multilevel",
+                  "isFailed": false,
+                  "title": "Living Room West Lamp",
+                  "level": 0
+              },
+              "nodeId": 45,
+              "order": {
+                  "rooms": 0,
+                  "elements": 0,
+                  "dashboard": 0
+              },
+              "permanently_hidden": false,
+              "probeType": "multilevel",
+              "product": "Plug-In Dimmer",
+              "tags": [],
+              "technology": "Z-Wave",
+              "visibility": true,
+              "updateTime": 1688799622
+          },
+          {
+              "creationTime": 1658676496,
+              "creatorId": 1,
+              "customIcons": {},
+              "deviceType": "switchBinary",
+              "firmware": "0.7",
+              "h": 1102191693,
+              "hasHistory": false,
+              "id": "ZWayVDev_zway_46-0-37",
+              "location": 5,
+              "locationName": "Foyer",
+              "manufacturer": "Leviton",
+              "metrics": {
+                  "icon": "switch",
+                  "isFailed": false,
+                  "title": "Front Door Exterior Lights",
+                  "level": "off"
+              },
+              "nodeId": 46,
+              "order": {
+                  "rooms": 0,
+                  "elements": 0,
+                  "dashboard": 0,
+                  "room": 2
+              },
+              "permanently_hidden": false,
+              "probeType": "scene_switch_binary",
+              "product": "Wall Switch, 15A",
+              "tags": [
+                  "Homebridge.Override.probeType:switch",
+                  "Homebridge.Service.Type:Lightbulb"
+              ],
+              "technology": "Z-Wave",
+              "visibility": true,
+              "updateTime": 1688829847
+          }
+      ]
+  },
+  "code": 200,
+  "message": "200 OK",
+  "error": null
+}

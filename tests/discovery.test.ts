@@ -27,6 +27,7 @@ describe('Testing Discovery', ()=>{
     });
 
     await platform.discoverDevices();
-    expect(platform.accessories.length).toBe(zwayDeviceCount);
+    const storage = platform.hap.HAPStorage.storage();
+    expect(storage).toBe(zwayDeviceCount);
   });
 });

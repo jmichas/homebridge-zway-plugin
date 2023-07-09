@@ -80,6 +80,8 @@ export class ZWayServerPlatform implements DynamicPlatformPlugin {
     // to start discovery of new accessories.
     this.api.on('didFinishLaunching', async () => {
       log.debug('Executed didFinishLaunching callback');
+      const storage = this.api.hap.HAPStorage.storage();
+      log.debug(storage);
       // run the method to discover / register your devices as accessories
       await this.discoverDevices();
     });
@@ -108,7 +110,7 @@ export class ZWayServerPlatform implements DynamicPlatformPlugin {
       .then((result)=>{
         this.zwayDevices = (result as any).data.devices;
       });
-    this.log.info(JSON.stringify(this.zwayDevices[7]));
+    //this.log.info(JSON.stringify(this.zwayDevices));
 
     // loop over the discovered devices and register each one if it has not already been registered
     for (const device of this.zwayDevices) {
@@ -157,7 +159,7 @@ export class ZWayServerPlatform implements DynamicPlatformPlugin {
 
         // link the accessory to your platform
         this.api.registerPlatformAccessories(PLUGIN_NAME, PLATFORM_NAME, [accessory]);
-        this.accessories.push(accessory); //not sure if we should manually add to accessories
+        //this.accessories.push(accessory); //not sure if we should manually add to accessories
       }
     }
   }
