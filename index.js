@@ -762,8 +762,8 @@ ZWayServerAccessory.prototype = {
             cx.on('set', interlock(function(powerOn, callback){ //powerOn is the action to perform true==on, false == off
                 debug("Setting value for " + vdev.metrics.title + ", characteristic \"" + cx.displayName + "\"...");
                 debug("powerOn = " + powerOn + " | vdev.metrics.level == " + vdev.metrics.level);
-                debug("vdev = " + JSON.stringify(vdev));
-                if(powerOn && vdev.metrics.level == 0 || !powerOn){ //check to see if it is already on? level == 0 seems to be off
+                //debug("vdev = " + JSON.stringify(vdev));
+                if((powerOn && (vdev.metrics.level == 0 || vdev.metrics.level === "off")) || !powerOn){ //check to see if it is already on? level == 0 seems to be off
                     this.command(vdev, powerOn ? "on" : "off").then(function(result){
                         debug("power on result = " + JSON.stringify(result));
                         callback();
