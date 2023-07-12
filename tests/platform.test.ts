@@ -2,26 +2,8 @@ import { Console } from 'console';
 import { ZWayServerPlatform, ZwayRequestOptions } from '../src/platform';
 import { HomebridgeAPI } from 'homebridge/lib/api';
 import axios, { AxiosError } from 'axios';
+import { config } from './test-config';
 
-/*
-{
-    "platform": "ZWayServer",
-    "name": "ZWayServer",
-    "url": "http://127.0.0.1:8083/",
-    "login": "admin",
-    "password": "1pocket",
-    "poll_interval": "2"
-}
-*/
-
-const config = {
-  name: 'ZWayServer',
-  platform: 'ZWayServer',
-  login: 'admin',
-  password: '1pocket',
-  url: 'http://homebridge.michas.selfip.com:8083/',
-  poll_interval: 2,
-};
 const log = console;
 const api = new HomebridgeAPI();
 

@@ -121,3 +121,5 @@ dist
 .yarn/unplugged
 .yarn/build-state.yml
 .pnp.*
+tests/test-config.ts
+scripts/local-config.sh
