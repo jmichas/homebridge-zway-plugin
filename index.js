@@ -171,8 +171,7 @@ ZWayServerPlatform.prototype = {
                         "Accept": "application/json",
                         "Content-Type": "application/json"
                     },
-                    json: true,
-                    jar: true//that.jar
+                    json: true
                 }, function(error, response, body){
                     if(response && response.statusCode == 200){
                         that.sessionId = body.data.sid;
